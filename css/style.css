@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(246, 248, 249);
+}
+
+.titolo{
+    font-size: 50px;
+    vertical-align: top;
+}
+
+.box1{
+    background-color: white;
+    padding: 20px;
+}
+
+.task{
+    background-color: rgb(115, 196, 244);
+    margin: 10px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    display: inline-block;
+}
+
+.section{
+    margin: 10px;
+    padding: 8.5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: gray;
+    border-color: gray;
+    border-style: solid;
+    border-width: 1px;
+    display: inline-block;
+}
+
+.aggiungi{
+    background-color: white;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    padding-left: 40px;
+    margin-top: 20px;
+    
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+
+main{
+    background-color: white;
+    margin-top: 5px;
+
+}
+
+ul{
+    padding: 10px;
+    list-style: none;
+}
+
+.editional{
+    border-radius: 17px;
+    border-color: rgb(115, 196, 244);
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(115, 196, 244);
+    color: white;
+    font-size: small;
+    padding: 5px;
+    display: inline-block;
+}
+
+.positivo{
+/*border-radius: 150px;*/
+    border-radius: 50%;
+    font-size: 15px;
+    border-style: solid;
+    border-color: lightgreen;
+    color:lightgreen;
+    display: inline-block;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    content: '\2713';  
+}
+
+
